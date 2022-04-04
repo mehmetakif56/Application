@@ -1,0 +1,77 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+	  <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20201021080818_Initial.cs" />
+    <Compile Remove="Migrations\20201021080818_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20201109130642_AddDbCont_1.cs" />
+    <Compile Remove="Migrations\20201109130642_AddDbCont_1.Designer.cs" />
+    <Compile Remove="Migrations\20201117153311_AddMatch_1.cs" />
+    <Compile Remove="Migrations\20201117153311_AddMatch_1.Designer.cs" />
+    <Compile Remove="Migrations\20201124104937_AddFacilityMatch.cs" />
+    <Compile Remove="Migrations\20201124104937_AddFacilityMatch.Designer.cs" />
+    <Compile Remove="Migrations\20201124111634_AddFacilityMatch_1.cs" />
+    <Compile Remove="Migrations\20201124111634_AddFacilityMatch_1.Designer.cs" />
+    <Compile Remove="Migrations\20201124204515_AddTableValued_1.cs" />
+    <Compile Remove="Migrations\20201124204515_AddTableValued_1.Designer.cs" />
+    <Compile Remove="Migrations\20201129210553_addnergy_2.cs" />
+    <Compile Remove="Migrations\20201129210553_addnergy_2.Designer.cs" />
+    <Compile Remove="Migrations\20201129211616_AddPeriod.cs" />
+    <Compile Remove="Migrations\20201129211616_AddPeriod.Designer.cs" />
+    <Compile Remove="Migrations\20201204073537_AddConfirm.cs" />
+    <Compile Remove="Migrations\20201204073537_AddConfirm.Designer.cs" />
+    <Compile Remove="Migrations\20210112135046_Fcd.cs" />
+    <Compile Remove="Migrations\20210112135046_Fcd.Designer.cs" />
+    <Compile Remove="Migrations\20210318132002_fcv_1.cs" />
+    <Compile Remove="Migrations\20210318132002_fcv_1.Designer.cs" />
+    <Compile Remove="Migrations\20210324082343_AddFaci_1.cs" />
+    <Compile Remove="Migrations\20210324082343_AddFaci_1.Designer.cs" />
+    <Compile Remove="Migrations\Integration\20201104134406_AddLacivert2.cs" />
+    <Compile Remove="Migrations\Integration\20201104134406_AddLacivert2.Designer.cs" />
+    <Compile Remove="Migrations\Integration\20201116060458_AddIntegration.cs" />
+    <Compile Remove="Migrations\Integration\20201116060458_AddIntegration.Designer.cs" />
+    <Compile Remove="Migrations\Integration\20201123073729_AddFacilityRTU.cs" />
+    <Compile Remove="Migrations\Integration\20201123073729_AddFacilityRTU.Designer.cs" />
+    <Compile Remove="Migrations\Integration\20201123074312_AddFacilityRTU_.cs" />
+    <Compile Remove="Migrations\Integration\20201123074312_AddFacilityRTU_.Designer.cs" />
+    <Compile Remove="Migrations\Integration\20201123074425_AddFacilityRTU__.cs" />
+    <Compile Remove="Migrations\Integration\20201123074425_AddFacilityRTU__.Designer.cs" />
+    <Compile Remove="Migrations\Integration\20201123115256_AddInvTotal_.cs" />
+    <Compile Remove="Migrations\Integration\20201123115256_AddInvTotal_.Designer.cs" />
+    <Compile Remove="Migrations\Integration\20201123115444_AddInvTotal_.cs" />
+    <Compile Remove="Migrations\Integration\20201123115444_AddInvTotal_.Designer.cs" />
+    <Compile Remove="Migrations\Integration\20201123121446_AddInvTotal___.cs" />
+    <Compile Remove="Migrations\Integration\20201123121446_AddInvTotal___.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="MongoDB.Driver" Version="2.11.5" />
+    <PackageReference Include="Z.EntityFramework.Extensions.EFCore" Version="3.0.91" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DBE.ENERGY.Core\DBE.ENERGY.Core.csproj" />
+  </ItemGroup>
+
+</Project>

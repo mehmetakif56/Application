@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBE.ENERGY.Web", "DBE.ENERGY.Web\DBE.ENERGY.Web.csproj", "{1871F41E-95F1-4D65-9E15-04141BC4DFDD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBE.ENERGY.Core", "..\DBE.ENERGY.Core\DBE.ENERGY.Core.csproj", "{22A904B3-0C4F-4D88-8A3A-B0F968BBF4A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBE.ENERGY.Infrastructure", "..\DBE.ENERGY.Infrastructure\DBE.ENERGY.Infrastructure.csproj", "{6BAFCEA4-B4B2-4516-BAFB-D917B6B88CF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBE.ENERGY.Resources", "..\DBE.ENERGY.Resources\DBE.ENERGY.Resources.csproj", "{225DDC94-116B-4CD6-A57C-788C29B030B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1871F41E-95F1-4D65-9E15-04141BC4DFDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1871F41E-95F1-4D65-9E15-04141BC4DFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1871F41E-95F1-4D65-9E15-04141BC4DFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1871F41E-95F1-4D65-9E15-04141BC4DFDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22A904B3-0C4F-4D88-8A3A-B0F968BBF4A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22A904B3-0C4F-4D88-8A3A-B0F968BBF4A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22A904B3-0C4F-4D88-8A3A-B0F968BBF4A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22A904B3-0C4F-4D88-8A3A-B0F968BBF4A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BAFCEA4-B4B2-4516-BAFB-D917B6B88CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BAFCEA4-B4B2-4516-BAFB-D917B6B88CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BAFCEA4-B4B2-4516-BAFB-D917B6B88CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BAFCEA4-B4B2-4516-BAFB-D917B6B88CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{225DDC94-116B-4CD6-A57C-788C29B030B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{225DDC94-116B-4CD6-A57C-788C29B030B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{225DDC94-116B-4CD6-A57C-788C29B030B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{225DDC94-116B-4CD6-A57C-788C29B030B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D25B9EE1-3F9F-4A53-9DAF-A38B1D6EA5AE}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://urfa:8080/tfs/dbe
+		SccProjectUniqueName0 = ..\\DBE.ENERGY.Resources\\DBE.ENERGY.Resources.csproj
+		SccProjectName0 = ../DBE.ENERGY.Resources
+		SccLocalPath0 = ..\\DBE.ENERGY.Resources
+		SccProjectUniqueName1 = ..\\DBE.ENERGY.Infrastructure\\DBE.ENERGY.Infrastructure.csproj
+		SccProjectName1 = ../DBE.ENERGY.Infrastructure
+		SccLocalPath1 = ..\\DBE.ENERGY.Infrastructure
+		SccProjectUniqueName2 = ..\\DBE.ENERGY.Core\\DBE.ENERGY.Core.csproj
+		SccProjectName2 = ../DBE.ENERGY.Core
+		SccLocalPath2 = ..\\DBE.ENERGY.Core
+		SccProjectUniqueName3 = DBE.ENERGY.Web\\DBE.ENERGY.Web.csproj
+		SccProjectName3 = DBE.ENERGY.Web
+		SccLocalPath3 = DBE.ENERGY.Web
+		SccLocalPath4 = .
+	EndGlobalSection
+EndGlobal
